@@ -37,14 +37,8 @@ class Article:
 # =================================
 
 def getInput():
-	while "Getting input":
-		currInput = str(input("Enter (y)es, (n)o or (e)xit. Invalid counts as no: "))
-		if currInput[0] == 'y':
-			return 1
-		elif currInput[0] == "e":
-			return -1
-		else:
-			return 0
+	currInput = str(input("Enter (y)es, (n)o or (e)xit. Invalid counts as no: "))
+	return 1 if currInput[0] == 'y' else -1 if currInput[0] == 'e' else 0
 
 # ====================================
 # =           Main Section           =
