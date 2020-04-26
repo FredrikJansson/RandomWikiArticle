@@ -52,7 +52,7 @@ def getInput():
 
 if __name__ == '__main__':
 	""" Initiating an article. """
-	currArticle = Article()
+	currArticle	= Article()
 	currInput 	= 0
 
 	""" Getting input from user, want to read the article? """
@@ -68,3 +68,5 @@ if __name__ == '__main__':
 	""" Opening article. """
 	if currInput == 1:
 		wb.open(currArticle.getURL())
+	else:
+		print("Closing application.")
