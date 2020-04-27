@@ -1,7 +1,6 @@
 """
 
-   Fredrik Jansson,
-   Filling out my GitHub.
+   Fredrik Jansson
 
 """
 
